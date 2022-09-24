@@ -1,0 +1,11 @@
+$palette: (
+    green: #6bc6a4,
+    pink: #d93269,
+    gray: #3a3a3a,
+);
+
+@function color($key) {
+    $color: map-get($palette, $key);
+
+    @return $color;
+}
