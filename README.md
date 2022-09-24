@@ -1,4 +1,3 @@
-
 <h1>
     <span>carrieschweiger.com</span>
     <a href="https://app.netlify.com/sites/monumental-marzipan-1ea17e/deploys" target="_blank"><img align="right" alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/1e5a8835-4eb6-401b-88e5-4a3e73c5b22a/deploy-status"></a>
