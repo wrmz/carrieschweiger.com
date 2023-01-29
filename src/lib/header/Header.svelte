@@ -20,14 +20,19 @@
 <style lang="scss">
 	@import 'src/styles/utils';
 	.global-header {
+		position: sticky;
 		display: grid;
 		grid-template-columns: max-content max-content;
 		align-items: center;
 		justify-content: space-between;
+		top: 0;
+		left: 0;
+		width: 100%;
 		height: 80px;
 		gap: 20px;
 		padding: 0 20px;
 		background: color(green);
+		z-index: 10;
 		@media #{$greaterthanMobile} {
 			padding: 0 30px;
 		}
